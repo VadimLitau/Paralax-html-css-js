@@ -49,6 +49,16 @@ body {
   background-image: url('./images/layer_6.png');
 }
 
+.mountains-slide-6::after {
+  content: "";
+  height: 100vh;
+  width: 100%;
+  background: #060d17;
+  display: block;
+  position: absolute;
+  top:92%;
+}
+
 .container {
   max-width: 900px;
   padding: 2rem 2rem 3rem;
